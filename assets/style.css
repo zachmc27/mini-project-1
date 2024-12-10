@@ -1,0 +1,160 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+body {
+    background-color: #DFF2EB;
+    width: 100%;
+    margin: 0px
+}
+
+h1,
+h2 {
+    color: #363636
+}
+
+figcaption,
+.sub,
+nav {
+    color: #2e2e2e
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left:0px;
+    background-color: #7AB2D3;
+    border-bottom: solid;
+    border-color: #4A628A;
+    border-width: 10px;
+    width: 100%;
+    margin: 0px
+    
+}
+
+.head{
+    display: inline;
+    margin-left: 50px;
+}
+
+.sub {
+    display:inline-block;
+    margin-top: 3px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    border-top: solid 1px;
+    padding-top: 5px
+}
+
+nav {
+    display: inline;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    margin-bottom: 5px; 
+}
+
+a {
+    color: #2e2e2e;
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px
+}
+
+ul {
+    display: inline;
+}
+
+main {
+    margin-top: 130px;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.text-centered {
+    text-align: center;
+    margin-top: 30px
+}
+
+.contact-section {
+    position:relative;
+    background-color: #B9E5E8;
+    border-top: 1px solid;
+    border-color: #4A628A;
+    width: 100%;
+    margin: 0px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-box {
+    position: absolute;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    width: 50%
+}
+
+.inputs {
+    border: 2px solid #4A628A;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+
+
+.inputs label {
+    display: inline;
+}
+
+.inputs input {
+    height: 15px;
+    width: 200px
+}
+
+#fix-length {
+    width: 204px
+}
+
+.contact-box button {
+    color: white;
+    background-color: rgb(58, 58, 58);
+    padding: 5px 8px;
+    width: 75px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px
+}
+
+.footer-box {
+    position: relative;
+    border-top: 1px solid;
+    border-bottom: 10px solid;
+    border-color: #4A628A;
+    background-color: #7AB2D3 ;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+
