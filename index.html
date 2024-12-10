@@ -4,38 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Zach McGregor</title>
 </head>
 <body>
     <header>
-        <h2>Zach McGregor</h2>
-        <p>Developer, Designer</p>
+        <h1 class="head">Zach McGregor</h1>
+        <br>
+        <div class="sub">Developer, Designer</div>
         <nav>
             <ul>
-                <li>Portfolio</li>
-                <li>About me</li>
-                <li>Dark Mode</li>
+                <a>Portfolio</a>
+                <a>About me</a>
+                <a>Dark Mode</a>
+                <a href="#contact-box">Contact Me</a>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>I'm Zach. Welcome to my website!</h1>
-        <figure>
+        <h1 class="text-centered">I'm Zach. Welcome to my website!</h1>
+        <figure >
             <img src="./assets/image-1.png" alt="A coming soon placeholder image.">
-            <figcaption>I am a freelance coder with expertise in HTML, CSS, Javascript, and more to come! </figcaption>
+            <figcaption class="text-centered">I am a freelance coder with expertise in HTML, CSS, Javascript, and more to come! </figcaption>
         </figure>
 
-        <section>
-           <h2>Contact Me</h2>
-           <input>
-           <input>
-           <button>Send</button>
+        <section class="contact-section" >
+            <div id="contact-box">
+                <h2 id="contact-title">Contact Me</h2>
+                <div class="inputs">
+                    <div id="row-1">
+                        <label>Name:</label>
+                        <input>
+                    </div>
+                    
+                    <div id="row-2">
+                    <label>Email:</label>
+                    <input id="fix-length">
+                    
+                    </div>
+                    <button class="send-button">SEND</button>
+                </div>
+            </div>
         </section>
     </main>
     
-    <footer>
-        <p>&copy; 2024 Zach The Dev Productions</p>
+    <footer class="footer-box">
+        <p>&copy; 2024 Zach McG. Productions</p>
     </footer>
 </body>
 </html>
