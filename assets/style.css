@@ -134,7 +134,7 @@ img {
     width: 204px
 }
 
-.contact-box button {
+#contact-box button {
     color: white;
     background-color: rgb(58, 58, 58);
     padding: 5px 8px;
